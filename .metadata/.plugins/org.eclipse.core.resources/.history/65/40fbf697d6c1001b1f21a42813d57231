@@ -1,0 +1,15 @@
+package classpart;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+
+		
+		int num = 53;
+		if (num == 53) {
+			System.out.println("정답");
+		} else {
+			System.out.println("오답");
+		}
+	}
+}

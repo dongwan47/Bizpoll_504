@@ -1,0 +1,8 @@
+package bizpoll_504;
+
+public class PracticeDAO {
+
+	public void Info(PracticeDTO practiceDTO) {
+		System.out.println(practiceDTO.toString());
+	}
+}

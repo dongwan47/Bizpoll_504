@@ -1,0 +1,9 @@
+package bizpoll_504;
+
+public class Student {
+	String name;
+	int number;
+	String gender;
+	
+	
+}

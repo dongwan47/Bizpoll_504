@@ -1,0 +1,8 @@
+package bizpoll;
+
+public class PracticeDAO {
+
+	public void flowerInfo(PracticeDTO practiceDTO) {
+		System.out.println(practiceDTO.toString());
+	}
+}

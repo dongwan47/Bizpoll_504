@@ -1,0 +1,11 @@
+package classpart;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+
+		int age = 25;
+		int charge;
+
+	}
+}

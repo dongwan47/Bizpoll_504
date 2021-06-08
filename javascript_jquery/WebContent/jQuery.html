@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	body {
+		background-color: #eef;
+	}
+	
+	div {
+		padding: 20px;
+}
+	
+</style>
+<script type="text/javascript" src="JS/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		var i = 0;
+		
+		$("h2").click(function() {
+			$(this).hide();
+		});
+		
+		$("div.out").mouseover(function() {
+			$("p:first", this).text("mouse over");
+			$("p:last", this).text(++i);
+		});
+		
+		$("input").focus(function() {
+			$(this).css("background-color", "yellow");
+		});
+		
+		$("input").blur(function() {
+			$(this).css("background-color", "white");
+		});
+		
+		$(document).mouseover(function(e) {
+			$("#log").text("e.pageX: " + e.pageX +  " e.pageY : "  + e.pageY);
+		});
+		
+		$("#show").click(function() {
+			$("#fade").show("slow");
+		});
+		$("#animate").click(function(){
+			$("#fade-dog").animate({
+				left : "100px"
+			});
+		});
+		
+		$("#fade-in").click(function() {
+			$("#fade-dog").fadeIn(1000);
+		});
+	
+		$("#fade-out").click(function() {
+			$("#fade-dog").fadeOut(400);
+		});
+		
+		$("#chain").click(function() {
+			$("#chain_fade").show()
+						    .fadeOut("slow")
+						    .slideDown("slow");
+		});		
+	});
+</script>
+</head>
+<body>
+	<h2>클릭하면 사라집니다.</h2>
+	<div class="out">
+		<p>마우스를 여기로 움직이세요.</p>
+		<p>0</p>
+	</div>
+	<hr>
+	아이디 : <input type="text" name="userid">
+	<hr>
+	<div id="log"></div>
+	<hr>
+	<button id="show">Show It</button>
+	<hr>
+	<img id= "fade" alt="123" src="images/1.jpg" style="display: none;" width="150px;" height="100px;">
+	<button id="animate">animate</button>
+	<hr>
+	<img id= "fade" alt="123" src="images/1.jpg" style="display: none;" width="150px;" height="100px;">
+	<button id="animate">animate</button>
+	<hr>
+	<img id= "fade-dog" alt="456" src="images/2.jpg" style="position: relative;" width="150px;" height="100px;">
+	<button id="fade-in">Fade In</button>
+	<button id="fade-out">Fade Out</button>
+	<hr>
+	<button id="chain">메서드 체이닝시장</button>
+	<img id= "chain_fade" alt="678" src="images/3.jpg" style="display: none;" width="150px;" height="100px;">
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

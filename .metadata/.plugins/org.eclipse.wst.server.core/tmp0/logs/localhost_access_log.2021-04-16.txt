@@ -1,0 +1,12 @@
+127.0.0.1 - - [16/Apr/2021:09:13:57 +0900] "GET / HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:09:13:58 +0900] "GET /javascript_jquery/jQuery1.html HTTP/1.1" 200 1861
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:09:13:58 +0900] "GET /javascript_jquery/JS/jquery-3.6.0.js HTTP/1.1" 200 288580
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:09:13:58 +0900] "GET /javascript_jquery/images/1.jpg HTTP/1.1" 200 108379
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:09:14:08 +0900] "GET /javascript_jquery/jQuery1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:09:14:08 +0900] "GET /javascript_jquery/images/1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:09:14:08 +0900] "GET /javascript_jquery/JS/jquery-3.6.0.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:09:14:08 +0900] "GET /favicon.ico HTTP/1.1" 404 1087
+127.0.0.1 - - [16/Apr/2021:15:20:25 +0900] "GET / HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:15:20:32 +0900] "GET /javascript_jquery/bizpoll.html HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:15:21:13 +0900] "GET /bizpoll/BizpollController HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [16/Apr/2021:15:21:22 +0900] "GET /bizpoll/BizpollController HTTP/1.1" 200 -

@@ -1,0 +1,16 @@
+package classpart;
+
+import flower.VioletDTO;
+
+public class PracticeMain {
+
+	public static void main(String[] args) {
+
+		VioletDTO violDto = new VioletDTO();
+		
+		violDto.setName(name);
+		violDto.setColor(color);
+		violDto.setNumberOfLeaves(numberOfLeaves);
+		
+	}
+}

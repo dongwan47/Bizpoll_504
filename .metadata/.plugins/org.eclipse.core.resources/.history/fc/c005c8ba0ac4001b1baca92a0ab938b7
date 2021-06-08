@@ -1,0 +1,11 @@
+package classpart;
+
+public class PracticeDTO {
+
+	private String name;
+	private String color;
+	private String numberOfLeaves;
+	private String bloom;
+	private String plantLength;
+
+}

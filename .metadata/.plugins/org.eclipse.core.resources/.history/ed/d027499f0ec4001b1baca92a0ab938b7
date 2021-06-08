@@ -1,0 +1,8 @@
+package classpart;
+
+public class PracticeDAO {
+
+	public void practiceInfo(String name, String color, String numberOfLeaves, String bloom, String plantLength) {
+		System.out.println(name + "/" + color + "/" + numberOfLeaves + "/" + bloom + "/" + plantLength);
+	}
+}

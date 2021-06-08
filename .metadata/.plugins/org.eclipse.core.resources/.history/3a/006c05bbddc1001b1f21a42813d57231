@@ -1,0 +1,9 @@
+package classpart;
+
+public class PracticeDAO {
+
+	public static void main(String[] args) {
+
+
+	}
+}

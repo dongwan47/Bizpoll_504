@@ -1,0 +1,70 @@
+package classpart;
+
+public class PracticeDTO {
+
+	private String name;
+	private String coloer;
+	private String numberOfLeaves;
+	private String bloom;
+	private String plantLength;
+
+	public PracticeDTO() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public PracticeDTO(String name, String coloer, String numberOfLeaves, String bloom, String plantLength) {
+		super();
+		this.name = name;
+		this.coloer = coloer;
+		this.numberOfLeaves = numberOfLeaves;
+		this.bloom = bloom;
+		this.plantLength = plantLength;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getColoer() {
+		return coloer;
+	}
+
+	public void setColoer(String coloer) {
+		this.coloer = coloer;
+	}
+
+	public String getNumberOfLeaves() {
+		return numberOfLeaves;
+	}
+
+	public void setNumberOfLeaves(String numberOfLeaves) {
+		this.numberOfLeaves = numberOfLeaves;
+	}
+
+	public String getBloom() {
+		return bloom;
+	}
+
+	public void setBloom(String bloom) {
+		this.bloom = bloom;
+	}
+
+	public String getPlantLength() {
+		return plantLength;
+	}
+
+	public void setPlantLength(String plantLength) {
+		this.plantLength = plantLength;
+	}
+
+	@Override
+	public String toString() {
+		return "PracticeDTO [name=" + name + ", coloer=" + coloer + ", numberOfLeaves=" + numberOfLeaves + ", bloom="
+				+ bloom + ", plantLength=" + plantLength + "]";
+	}
+
+}

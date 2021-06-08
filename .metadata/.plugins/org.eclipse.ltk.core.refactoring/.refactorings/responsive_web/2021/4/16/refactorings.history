@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;images&apos;&#x0D;&#x0A;- Original project: &apos;responsive_web&apos;&#x0D;&#x0A;- Destination element: &apos;images&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     5.jpg&#x0D;&#x0A;     4.jpg&#x0D;&#x0A;     2.jpg&#x0D;&#x0A;     1.jpg&#x0D;&#x0A;     3.jpg" description="Copy files" element1="WebContent/imeges/5.jpg" element2="WebContent/imeges/4.jpg" element3="WebContent/imeges/2.jpg" element4="WebContent/imeges/1.jpg" element5="WebContent/imeges/3.jpg" files="5" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1618453720477" target="/javascript_jquery/WebContent/images" units="0" version="1.0"/>
+</session>

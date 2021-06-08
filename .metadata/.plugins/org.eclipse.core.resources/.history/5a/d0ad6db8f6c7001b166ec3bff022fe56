@@ -1,0 +1,10 @@
+package bizpoll_504;
+
+import java.util.Scanner;
+
+public class Rose {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+	
+	}
+}

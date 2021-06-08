@@ -1,0 +1,10 @@
+package classpart;
+
+import flower.VioletDTO;
+
+public class PracticeDAO {
+
+	public void violetInfo(VioletDTO violetDTO) {
+		System.out.println(violetDTO.toString());
+	}
+}

@@ -1,0 +1,19 @@
+package bizpoll_504;
+
+import java.util.ArrayList;
+
+public class morning {
+
+	public static void main(String[] args) {
+		ArrayList<Student> students = new ArrayList<Student>();
+		students.add(new Student("호랑이", 2009038033, "남"));
+		students.add(new Student("고양이", 2007012034, "여"));
+
+		System.out.println("첫 번째~ 세 번째 문제");
+		for (Student item:students) {
+			System.out.println(String.format("이름:%s, 학번:%d, 성별:%s",
+					item.name,item.number,item.gender));
+		}
+	}
+
+}

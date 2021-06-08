@@ -1,0 +1,12 @@
+package classpart;
+
+public class PracticeMain {
+
+	public static void main(String[] args) {
+
+		PracticeDTO pracDto = new PracticeDTO();
+		pracDto.setName("이름");
+		pracDto.setColoer(coloer);
+	}
+
+}

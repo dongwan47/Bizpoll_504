@@ -1,0 +1,16 @@
+package classpart;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+
+		int num = 53;
+		if (num == 54) {
+			System.out.println("로그인 성공");
+		} else {
+			System.out.println("아이디와 비밀번호를 확인해주세요.");
+			
+		}
+
+	}
+}
