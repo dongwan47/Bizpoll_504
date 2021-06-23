@@ -76,5 +76,4 @@ public class SwitchCase {
 		}
 		System.out.println(month + "월의 날짜는 " + day + "까지입니다.");
 	}
-
 }
