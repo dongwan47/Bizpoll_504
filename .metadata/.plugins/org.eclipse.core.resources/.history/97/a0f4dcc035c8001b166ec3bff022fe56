@@ -1,13 +1,10 @@
 package bizpoll_504;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Rose {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		List<RoseDTO> roseList = new ArrayList<RoseDTO>();
 		while (true) {
 			System.out.println("메뉴를 선택하세요.");
 			System.out.println("1 : 꽃 정보입력");
@@ -28,13 +25,8 @@ public class Rose {
 				int plantLength = scan.nextInt();
 				
 				RoseDTO rosDto = new RoseDTO(name, color, numberOfLeaves, bloom, plantLength);
-				roseList.add(rosDto);
-				
 			} else if (menu == 2) {
-				
-				RoseDAO rosDao = new RoseDAO();
-				rosDao.roseInfo(roseList);
-				
+
 			} else if (menu == 3) {
 				System.exit(0);
 			}
