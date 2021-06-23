@@ -26,15 +26,15 @@ public class Rose {
 				int bloom = scan.nextInt();
 				System.out.println("수고");
 				int plantLength = scan.nextInt();
-				
+
 				RoseDTO rosDto = new RoseDTO(name, color, numberOfLeaves, bloom, plantLength);
 				roseList.add(rosDto);
-				
+
 			} else if (menu == 2) {
-				
+
 				RoseDAO rosDao = new RoseDAO();
 				rosDao.roseInfo(roseList);
-				
+
 			} else if (menu == 3) {
 				System.exit(0);
 			}

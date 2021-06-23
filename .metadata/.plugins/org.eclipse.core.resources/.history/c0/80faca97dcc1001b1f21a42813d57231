@@ -1,9 +1,0 @@
-package classpart;
-
-public class PracticeDTO {
-
-	public static void main(String[] args) {
-
-
-	}
-}

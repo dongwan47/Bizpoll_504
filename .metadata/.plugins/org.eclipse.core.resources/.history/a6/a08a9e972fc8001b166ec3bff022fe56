@@ -1,7 +1,0 @@
-package bizpoll_504;
-
-public class RoseDAO {
-	public void roseInfo(String name, String color, int numberOfLeaves, int bloom, int plantLength) {
-		System.out.println(name + "/" + color + "/" + numberOfLeaves + "/" + bloom + "/" + plantLength);
-	}
-}

@@ -1,8 +1,0 @@
-package classpart;
-
-public class PracticeDAO {
-
-	public void practiceInfo(PracticeDTO practiceDTO) {
-		System.out.println(practiceDTO.toString());
-	}
-}

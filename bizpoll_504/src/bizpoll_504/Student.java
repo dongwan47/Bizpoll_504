@@ -1,38 +1,45 @@
 package bizpoll_504;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Student {
-	String name;
-	int number;
-	String gender;
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		List<StudentDTO> studentList = new ArrayList<StudentDTO>();
+		while (true) {
+			System.out.println("메뉴를 선택하세요.");
+			System.out.println("1 : 학생정보입력");
+			System.out.println("2 : 학생정보출력");
+			System.out.println("3 : 프로그램종료");
+			int menu = scan.nextInt();
+			if (menu == 1) {
+				scan.nextLine();
+				System.out.println("성별(m/f)");
+				String gender = scan.nextLine();
+				System.out.println("이름");
+				String name = scan.nextLine();
+				System.out.println("학번");
+				int id = scan.nextInt();
+				System.out.println("교실");
+				int classroom = scan.nextInt();
+				scan.nextLine();
+				System.out.println("주소");
+				String address = scan.nextLine();
 
-	public Student(String n, int num, String g) {
-		name = n;
-		number = num;
-		gender = g;
-	}
+				StudentDTO studDto = new StudentDTO(gender, name, id, classroom, address);
+				studentList.add(studDto);
 
-	public String getName() {
-		return name;
-	}
+			} else if (menu == 2) {
 
-	public void setName(String name) {
-		this.name = name;
-	}
+				StudentDAO studDao = new StudentDAO();
+				studDao.studentInfo(studentList);
 
-	public int getNumber() {
-		return number;
-	}
-
-	public void setNumber(int number) {
-		this.number = number;
-	}
-
-	public String getGender() {
-		return gender;
-	}
-
-	public void setGender(String gender) {
-		this.gender = gender;
+			} else if (menu == 3) {
+				System.exit(0);
+			}
+		}
 	}
 
 }

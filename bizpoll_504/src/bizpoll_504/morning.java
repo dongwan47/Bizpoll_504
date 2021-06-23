@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class morning {
 
 	public static void main(String[] args) {
-		ArrayList<Student> students = new ArrayList<Student>();
-		students.add(new Student("호랑이", 2009038033, "남"));
-		students.add(new Student("고양이", 2007012034, "여"));
+		ArrayList<StudentDTO> students = new ArrayList<StudentDTO>();
+		students.add(new StudentDTO("호랑이", 2009038033, "남"));
+		students.add(new StudentDTO("고양이", 2007012034, "여"));
 
 		System.out.println("첫 번째~ 세 번째 문제");
-		for (Student item : students) {
+		for (StudentDTO item : students) {
 			System.out.println(String.format("이름:%s, 학번:%d, 성별:%s", item.name, item.number, item.gender));
 		}
 		System.out.println();
@@ -28,7 +28,7 @@ public class morning {
 			}
 		}
 		System.out.println("네 번째~다섯 번째 문제");
-		for (Student item : students) {
+		for (StudentDTO item : students) {
 			System.out.println(String.format("이름:%s, 학번:%d, 성별:%s", item.name, item.number, item.gender));
 
 		}
